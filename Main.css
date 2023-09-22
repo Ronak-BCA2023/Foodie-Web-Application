@@ -31,7 +31,6 @@ html {
     font-size: 10px;
 }
 
-
 .firstnavcontainer {
 
     height: 7vh;
@@ -146,7 +145,6 @@ html {
     height: 7vh;
     position: relative;
     overflow: hidden;
-
 }
 
 .rightcorner1 {
@@ -181,7 +179,8 @@ html {
     justify-content: center;
     align-items: center;
     height: 7vh;
-    margin: 0 6rem;
+    margin: 0 3rem;
+
 }
 
 #insidedelivery1 {
@@ -490,6 +489,7 @@ html {
 
     font-family: sans-serif;
 }
+
 
 .btn {
 
@@ -813,7 +813,6 @@ html {
     color: white;
     font-size: 1.4rem;
     font-family: 'Inter';
-
     display: flex;
     justify-content: space-evenly;
 
