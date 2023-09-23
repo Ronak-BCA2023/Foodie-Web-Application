@@ -75,7 +75,7 @@ html {
 
 }
 
-.firstul li {
+.firstul1 li {
 
     border-radius: .2rem;
     margin: 0 1.5rem;
@@ -86,7 +86,7 @@ html {
 
 }
 
-.firstul1 li {
+.firstul li {
 
     border-radius: .2rem;
     margin: 0 1.5rem;
@@ -285,7 +285,10 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
 }
+
+
 
 .section2 {
     display: flex;
@@ -612,8 +615,6 @@ span{
     color: rgb(3, 20, 254);
     font-weight: bold;
 }
-
-
 
 
 
