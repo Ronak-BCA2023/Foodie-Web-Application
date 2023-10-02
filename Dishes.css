@@ -405,7 +405,25 @@ main {
     align-items: center;
 }
 
+.r{
+    height: 20rem;
+    width: 20rem;
+    background-color: #fff;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition:  all;
+    transition-duration: .3s;
+    transition-timing-function: linear;
+   
+}
 
+.r:hover{
+
+    box-shadow: 5px 5px 8px 0px #989797, -5px -5px 8px 0px #989797;
+  
+}
 .off {
 
     height: 50vh;
@@ -450,7 +468,7 @@ main {
     background-color: #fff;
     display: grid;
     align-items: center;
-    width: 78vw;
+    width: 82vw;
 }
 
 .innersmallslider {
@@ -460,7 +478,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 78vw;
+    width: 82vw;
 
 }
 
