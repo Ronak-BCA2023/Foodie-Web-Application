@@ -34,7 +34,7 @@ html {
 
 .firstnavcontainer {
 
-    height: 7vh;
+    height: 60px;
     width: 100vw;
     background-color: #fff;
     position: fixed;
@@ -57,7 +57,7 @@ html {
 .firstul {
 
     list-style: none;
-    height: 7vh;
+    height: 60px;
     display: flex;
     align-items: center;
     position: relative;
@@ -67,7 +67,7 @@ html {
 .firstul1 {
 
     list-style: none;
-    height: 7vh;
+    height: 60px;
     display: flex;
     align-items: center;
     position: relative;
@@ -132,7 +132,7 @@ html {
 
 .logo {
 
-    height: 7vh;
+    height: 60px;
     /* margin-left: 1.5rem; */
     left: 3rem;
     display: flex;
@@ -215,7 +215,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 7vh;
+    height: 60px;
     overflow: hidden;
     margin: 0 3rem;
 }
@@ -242,8 +242,8 @@ html {
 
 main {
 
-    min-height: calc(100vh - 7vh - 7vh);
-    margin-top: 7vh;
+    min-height: calc(100vh - 60px - 60px);
+    margin-top: 60px;
 
 }
 
@@ -305,10 +305,9 @@ main {
 
     width: 350px;
     height: 400px;
-    /* background-color: lightcoral; */
-    /* border: 1px solid black; */
     padding: 5rem 1.5rem;
     margin: 0 2rem;
+    overflow: hidden;
 
 }
 
@@ -601,7 +600,7 @@ main {
 
 footer {
 
-    height: 7vh;
+    height: 60px;
     background-color: #fff;
     font-size: 1.6rem;
     font-family: math;
@@ -611,118 +610,7 @@ footer {
     border-top: 2px solid #a29f9f;
 }
 
-span{
+span {
     color: rgb(3, 20, 254);
     font-weight: bold;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Header Meadia query */
-
-@media (max-width: 600px) {
-
-    html {
-
-        font-size: 6px;
-    }
-
-    .firstul {
-
-        list-style: none;
-        height: 7vh;
-        display: flex;
-        align-items: center;
-        position: relative;
-        display: none;
-
-    }
-
-    .firstul1 {
-
-        list-style: none;
-        height: 7vh;
-        display: flex;
-        align-items: center;
-        position: relative;
-        font-size: 1.5rem;
-
-    }
-
-    .upperdelivery {
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 7vh;
-        overflow: hidden;
-        margin: 0;
-    }
-
-    .search {
-        background-color: pink;
-        width: 28rem;
-        height: 3.5rem;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        border-radius: 5px;
-        overflow: hidden;
-        border: 1px solid black;
-    }
-
-    .section2img1 {
-        width: 29rem;
-        height: 40rem;
-
-        padding: 5rem 1.5rem;
-        margin: 0 2rem;
-    }
-
-    .pro {
-        height: 23rem;
-        background-color: #fff;
-        border-radius: 30px;
-    }
-
-    .circle-img1{
-        height: 10rem;
-        width: 10rem;
-    }
-
-    .section7{
-    height: 20rem;
-    justify-content: center;
-    background-color: #fff;
-    display: grid;
-    align-items: center;
-    margin-bottom: 6rem;
-    }
-
-    .smallslider{
-        height: 20rem;
-        background-color: #fff;
-        display: grid;
-        align-items: center;
-        width: 78vw;
-    }
-
 }

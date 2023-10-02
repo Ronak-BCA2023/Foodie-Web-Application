@@ -1,0 +1,408 @@
+/* Media Query - 01 */
+
+@media (min-width: 797px) and (max-width: 1000px) {
+
+    .firstnavcontainer {
+
+        height: 50px;
+        width: 100vw;
+
+    }
+
+    html {
+        font-size: 8px;
+    }
+
+    .firstul li {
+        border-radius: .2rem;
+        margin: 0px 0.5rem;
+        padding: .5rem;
+        transition: all;
+        transition-duration: 0.1s;
+        transition-timing-function: linear;
+    }
+
+    footer {
+
+        font-size: 1.6rem;
+    }
+
+    main {
+        margin-top: 50px;
+    }
+
+    .section1 {
+        height: 100px;
+        width: 100vw;
+    }
+
+    .innersmallslider {
+        height: 19rem;
+        width: 78vw;
+    }
+
+    .pro {
+        height: 215px;
+        width: 330;
+
+    }
+
+    .last-Section {
+        height: 200px;
+    }
+
+    .innerlast-Section {
+        height: 150px;
+        width: 78vw;
+
+    }
+
+    .secondlast-img {
+        height: 130px;
+        width: 160px;
+    }
+
+    .off {
+
+        height: 250px;
+
+    }
+
+    .insideoff {
+        height: 200px;
+        width: 78vw;
+
+    }
+
+    .section2img1 {
+        width: 300px;
+        height: 335px;
+        padding: 5rem 1.5rem;
+        margin: 0 2rem;
+    }
+
+    .section7 {
+        height: 21rem;
+        margin-bottom: 0;
+
+    }
+
+    .secondlastdiv {
+        height: 140px;
+        margin: 2rem;
+        overflow: hidden;
+    }
+
+    .innersmallslider {
+        height: 19rem;
+        width: 78vw;
+    }
+
+    .circle-img1 {
+        height: 11.5rem;
+        width: 11.5rem;
+    }
+
+    .circle-lines {
+        width: 11.5rem;
+    }
+
+    .logo a {
+
+        font-size: 2rem;
+        font-family: sans-serif;
+        font-weight: 600;
+    }
+
+    main {
+        min-height: calc(100vh - 60px - 60px);
+        margin-top: 50px;
+    }
+
+    .smallslider {
+        height: 21rem;
+        width: 78vw;
+    }
+}
+
+
+/* Media Query - 02 */
+
+
+@media (min-width: 600px) and (max-width: 796px) {
+
+    .firstnavcontainer {
+
+        height: 50px;
+        width: 100vw;
+    }
+
+    html {
+        font-size: 8px;
+    }
+
+    .section1 {
+        height: 65px;
+        width: 100vw;
+    }
+
+    .section2img1 {
+        width: 236px;
+        height: 300px;
+    }
+
+    .pro {
+        height: 170px;
+    }
+
+    .off {
+        height: 200px;
+    }
+
+    .insideoff {
+        height: 150px;
+        width: 78vw;
+    }
+
+    .circle-img1 {
+        height: 90px;
+        width: 90px;
+    }
+
+    .section7 {
+        height: 170px;
+        margin-bottom: 0;
+        overflow: hidden;
+    }
+
+    .smallslider {
+        height: 170px;
+        width: 78vw;
+    }
+
+    .innersmallslider {
+        height: 150px;
+    }
+
+    .circle-lines {
+        width: 11rem;
+    }
+
+    .secondlast-img {
+        height: 154px;
+        width: 180px;
+    }
+
+    .secondlastdiv {
+        height: 155px;
+        margin: 2rem;
+    }
+
+    .last-Section {
+        height: 200px;
+    }
+
+    .innerlast-Section {
+        height: 150px;
+        width: 78vw;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+
+    .firstnavcontainer {
+
+        height: 40px;
+        width: 100vw;
+    }
+
+    html {
+        font-size: 7px;
+    }
+
+    .firstul {
+      position: absolute;
+      top: 10px;
+    }
+
+    .firstul1 {
+        display: none;
+
+    }
+
+
+    .logo {
+        height: 40px;
+    }
+
+    .logo a {
+
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .section7 {
+        height: 115px;
+        margin-bottom: 0;
+        overflow: hidden;
+    }
+
+    .smallslider {
+        height: 115px;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .innersmallslider {
+        height: 115px;
+        width: 92vw;
+    }
+
+    .circle-img1 {
+        height: 55px;
+        width: 55px;
+    }
+
+
+    .circle-lines {
+        width: 7rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    main {
+        min-height: calc(100vh - 400px - 40px);
+        margin-top: 40px;
+    }
+
+    footer {
+
+        font-size: 1.6rem;
+        height: 40px;
+    }
+
+    .section1 {
+        height: 80px;
+        width: 100vw;
+    }
+
+    .upperdelivery {
+
+        height: 40px;
+        overflow: hidden;
+        margin: 0 2rem;
+        width: 14rem;
+    }
+
+    .section2img1 {
+
+        height: 300px;
+        margin: 0;
+        width: 140px;
+        padding: 5rem 1.5rem;
+        overflow: hidden;
+    }
+
+    .section2 {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .firstul {
+    
+        background: white;
+        position: fixed;
+        width: 100vw;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .pro {
+        height: 140px;
+        border-radius: 10px;
+    }
+
+    .proimg {
+
+        border-radius: 10px;
+    }
+
+    .innersection2lines {
+        display: flex;
+        justify-content: space-between;
+        font-family: inter;
+        font-size: 1.5rem;
+        flex-direction: column;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    .lines4 {
+        color: black;
+        font-family: arial;
+    }
+
+    .innersection2lines1 {
+        display: flex;
+        justify-content: space-between;
+        font-family: ui-monospace;
+        color: rgb(120, 120, 120);
+        font-size: 1.6rem;
+        flex-direction: column;
+    }
+
+    .off {
+        height: 170px;
+    }
+
+    .insideoff {
+        height: 140px;
+        width: 95vw;
+    }
+
+    .secondlast-img {
+        height: 135px;
+        width: 153px;
+    }
+
+    .secondlastdiv {
+        height: 130px;
+        margin: 2rem;
+    }
+
+    .last-Section {
+        height: 200px;
+    }
+
+    .innerlast-Section {
+        height: 150px;
+        width: 76vw;
+    }
+
+    .firstdiv {
+        font-size: 1.4rem;
+    }
+
+    .firstdiv h2 {
+        margin-bottom: 2rem;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        /* font-size: 1.5rem; */
+        font-size: 1.1rem;
+    }
+
+    .inner-thirddiv h3 {
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.1rem;
+        margin: 1rem 0;
+    }
+
+}

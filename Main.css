@@ -13,7 +13,7 @@
 body {
 
     overflow-x: hidden;
-} 
+}
 
 :root {
 
@@ -43,7 +43,7 @@ html {
     z-index: 1000;
     box-shadow: 0 5px 6px -3px #989797;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 
 }
 
@@ -69,7 +69,6 @@ html {
     transition: all;
     transition-duration: 0.1s;
     transition-timing-function: linear;
-    
 }
 
 .firstul1 {
@@ -235,7 +234,7 @@ html {
 
 .main {
 
-    min-height: calc(100vh - 7vh - 7vh);
+    /* min-height: calc(100vh - 7vh - 7vh); */
     margin-top: 7vh;
     /* position: relative; */
 }
@@ -990,7 +989,7 @@ html {
         align-items: center;
         height: 7vh;
         overflow: hidden;
-        
+
     }
 
     .search {
@@ -1019,21 +1018,21 @@ html {
         border-radius: 30px;
     }
 
-    .circle-img1{
+    .circle-img1 {
         height: 10rem;
         width: 10rem;
     }
 
-    .section7{
-    height: 20rem;
-    justify-content: center;
-    background-color: #fff;
-    display: grid;
-    align-items: center;
-    margin: 1rem 0;
+    .section7 {
+        height: 20rem;
+        justify-content: center;
+        background-color: #fff;
+        display: grid;
+        align-items: center;
+        margin: 1rem 0;
     }
 
-    .smallslider{
+    .smallslider {
         height: 20rem;
         background-color: #fff;
         display: grid;
@@ -1041,7 +1040,7 @@ html {
         width: 78vw;
     }
 
-    .section3{
+    .section3 {
         height: 55vh;
         width: 100vw;
         display: flex;
@@ -1051,20 +1050,20 @@ html {
         overflow: hidden;
     }
 
-    .upperfreshvegitables{
-       
-    height: 37rem;
-    width: 31rem;
-    padding: 7px;
-    background-color: #fff;
-    /* background: green; */
-    overflow: hidden;
-    transition: all;
-    transition-duration: .3s;
-    transition-timing-function: linear
+    .upperfreshvegitables {
+
+        height: 37rem;
+        width: 31rem;
+        padding: 7px;
+        background-color: #fff;
+        /* background: green; */
+        overflow: hidden;
+        transition: all;
+        transition-duration: .3s;
+        transition-timing-function: linear
     }
 
-    .freshvegitables{
+    .freshvegitables {
         height: 35rem;
         width: 29rem;
         transition: all;
@@ -1075,23 +1074,23 @@ html {
         overflow: hidden;
     }
 
-    .section3images{
+    .section3images {
         height: 75%;
         width: 75%;
         border-radius: 10px;
     }
 
-    .section3 h3{
+    .section3 h3 {
         font-size: 2rem;
         font-family: 'Inter';
         color: var(--second-black);
     }
 
-    .freshvegitables p{
+    .freshvegitables p {
         display: none;
     }
 
-    .second-upperfreshvegitables{
+    .second-upperfreshvegitables {
         display: none;
     }
 
@@ -1111,7 +1110,7 @@ html {
         transition-timing-function: linear;
     }
 
-    .section2{
+    .section2 {
 
         height: 70vh;
         width: 100vw;
@@ -1121,7 +1120,7 @@ html {
 
     .bimage {
         height: 70vh;
-      
+
         width: 100vw;
         background-image: url(./Project_Img/z1.webp);
         background-size: 100% 100%;
@@ -1130,7 +1129,7 @@ html {
         animation-duration: 15s;
         animation-iteration-count: infinite;
         animation-timing-function: ease-in-out;
-    
+
     }
 
 
