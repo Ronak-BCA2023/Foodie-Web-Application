@@ -95,7 +95,7 @@
 
     .innersmallslider {
         height: 19rem;
-        width: 78vw;
+        width: 98vw;
     }
 
     .circle-img1 {
@@ -121,8 +121,15 @@
 
     .smallslider {
         height: 21rem;
-        width: 78vw;
+        width: 98vw;
     }
+
+    .r {
+        height: 16rem;
+        width: 16rem;
+    }
+  
+  
 }
 
 
@@ -177,11 +184,12 @@
 
     .smallslider {
         height: 170px;
-        width: 78vw;
+        width: 100vw;
     }
 
     .innersmallslider {
         height: 150px;
+        width: 100vw;
     }
 
     .circle-lines {
@@ -205,6 +213,11 @@
     .innerlast-Section {
         height: 150px;
         width: 78vw;
+    }
+
+    .r {
+        height: 15.5rem;
+        width: 15.5rem;
     }
 }
 
@@ -255,7 +268,7 @@
 
     .innersmallslider {
         height: 115px;
-        width: 92vw;
+        width: 100vw;
     }
 
     .circle-img1 {
@@ -410,6 +423,22 @@
         font-family: Arial, Helvetica, sans-serif;
         font-size: 1.1rem;
         margin: 1rem 0;
+    }
+
+    .r:hover {
+        box-shadow: 1px 1px 8px 0px #989797, 1px -1px 8px 0px #989797;
+    }
+
+    .r {
+        height: 9rem;
+        width: 9rem;
+    }
+
+    .circle-lines {
+        width: 7rem;
+        display: flex;
+        justify-content: center;
+        margin-top: 6px;
     }
 
 }

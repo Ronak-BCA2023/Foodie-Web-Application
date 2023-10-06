@@ -1,0 +1,157 @@
+
+@media (min-width: 797px) and (max-width: 1000px){
+
+    html{
+        font-size: 8px;
+    }
+
+    .firstnavcontainer {
+        height: 60px;
+        width: 100vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .main {
+        min-height: calc(100vh - 60px - 60px);
+        margin-top: 60px;
+    }
+
+    .insidesection {
+       
+        height: 59px;
+    }
+
+    .section1 {
+        margin-top: 60px;
+        height: 5vh;
+        width: 100vw;
+    }
+
+    .section2 {
+        height: 450px;
+        width: 100vw;
+    }
+
+    .bimage {
+        height: 450px;
+    }
+
+    .top1 {
+        width: 100%;
+        top: 23%;
+        overflow: hidden;
+    }
+
+    .top {
+       
+        width: 100%;
+        top: 28.5%;
+        overflow: hidden;
+    }
+
+    .upperfeatures {
+       
+        margin-top: 1rem;
+    }
+
+    .freshvegitables {
+        height: 295px;
+        width: 170px;
+    }
+
+    .section3images {
+        height: 150px;
+        width: 150px;
+        border-radius: 10px;
+    }
+
+    .section3 {
+        height: 340px;
+        width: 100vw;
+    }
+
+    .upperfreshvegitables {
+        padding: 0;
+    }
+
+    .section3 h3 {
+        font-size: 19px;
+        font-family: system-ui;
+        color: #000856;
+        font-weight: 650;
+    }
+
+    .freshvegitables p {
+      
+        display: none;
+    }
+
+    .btn {
+        margin-top: 3rem;
+    }
+    
+    .section4 {
+       
+        margin-top: 0rem;
+    }
+    
+    .upperfeatures {
+        margin-top: 0rem;
+    }
+
+    .section4img1 {
+        width: 245px;
+        height: 360px;
+    }
+
+    .pro {
+        height: 225px;
+    }
+
+    .section7 {
+        height: 230px;
+
+    }
+
+    .circle-img1 {
+        height: 100px;
+        width: 100px;
+    }
+    
+    .section9 {
+       
+        height: 400px;
+        overflow: hidden;
+    }
+
+    .section9 {
+        height: 400px;
+        overflow: hidden;
+    }
+
+    .innersection9 {
+        
+        height: 320px;
+    }
+
+    .place ul {
+        list-style: none;
+        line-height: 2rem;
+    }
+    
+    #footer {
+        height: 60px;
+    }
+    
+    .footer-second-div {
+        height: 60px;
+    }
+    
+    
+}
